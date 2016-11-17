@@ -1,0 +1,3 @@
+//GAME STATES//
+
+0 - main menu

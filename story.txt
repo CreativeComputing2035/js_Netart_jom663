@@ -1,0 +1,27 @@
+
+RPG style game-gold,mana,combat,party, world exploration
+main menu
+//story//
+
+player has been captured and wakes up in a dungeon cell
+along with another prisoner. The player needs to escape to progress the story
+
+choice
+1.look around
+2.call the guard
+3.go back to sleep
+
+look around notice a sharp knife on the ground and the other prisoner's rope pin is loose. leeds to choice 2
+
+call guard- the guard refuses to help you and tells to be quite 
+sleep-game over
+
+choice 2
+1. disregard the knife and loose rope pin go back to choice 1
+2. tell the prisoner his rope is loose. prisoner wiggles pin out of wall and falls to ground. choice 3
+3.attempt to use legs to grab knife. fail. choice 2
+
+choice 3 
+1.tell prisoner about the knife and that in order to escape with you need to work together
+2. disregard knife. wait for the prisoner to think of a plan.
+3.attempt to loosen player rope pin. fail. choice 3

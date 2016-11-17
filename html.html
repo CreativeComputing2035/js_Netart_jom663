@@ -1,0 +1,84 @@
+<!DOCTYPE="html">
+<html lang="en">
+<head>
+    <title> Text Adventure</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="application/javascript" src="javascript.js"></script>
+</head>
+    <body>
+        <div id="gameTitle">Text Adventure</div>
+        <div id="start">
+            <p id="Title" style="display:block">TEXT ADVENTURE</p>
+            <ul>
+                <li><button onclick = "replace('start','div1')">1.Play Game</button></li>
+            <li><button onclick="myFunction()">2.Exit Game</button></li></ul>
+            
+        </div>
+        <div id="div1" style="display:none">
+            <p>player has been captured and wakes up in a dungeon cell along with another prisoner. The player needs to escape to progress the story</p>
+            <ol><li>Look Around</li>
+            <li> Call the guard</li>
+            <li>Go back to sleep</li></ol>
+            <ul>
+                <li><button onclick="replace('div1','div3' )">choice 1</button></li>
+                <li><button onclick="replace('div1','div2' )">choice 2 </button></li>
+                <li><button onclick="myFunction2()">choice 3 </button></li></ul>
+            
+        </div>
+        <div id="div2" style="display:none">
+            <p>The guard refuses to help you and tells to be quite </p>
+            <ol><li>Look Around</li>
+            <li> Call the guard</li>
+            <li>Go back to sleep</li></ol>
+            <ul>
+                <li><button onclick="replace('div2','div3')">choice 1</button></li>
+                <li><button onclick="replace('div2','div2')">choice 2 </button></li>
+                <li><button onclick="myFunction2()">choice 3 </button></li></ul>
+            
+        </div>
+        <div id="div3" style="display:none">
+            <p>Notice a sharp knife on the ground and the other prisoner's rope pin is loose.</p>
+            <ol><li>disregard the knife and loose rope pin</li>
+            <li> tell the prisoner his rope is loose.</li>
+            <li>attempt to use legs to grab knife.</li></ol>
+            <ul>
+                <li><button onclick="replace('div3','div1')">choice 1</button></li>
+                <li><button onclick="replace('div3','div5')">choice 2 </button></li>
+                <li><button onclick="replace('div3','div4')">choice 3 </button></li></ul>
+            
+        </div>
+         <div id="div4" style="display:none">
+            <p>Fail</p>
+            <ol><li>disregard the knife and loose rope pin</li>
+            <li> tell the prisoner his rope is loose.</li>
+            <li>attempt to use legs to grab knife.</li></ol>
+            <ul>
+                <li><button onclick="replace('div4','div1')">choice 1</button></li>
+                <li><button onclick="replace('div4','div5')">choice 2 </button></li>
+                <li><button onclick="replace('div4','div4')">choice 3 </button></li></ul>
+            
+        </div>
+        <div id="div5" style="display:none">
+            <p>Prisoner wiggles pin out of wall and falls to ground.</p>
+            <ol><li>tell prisoner about the knife and that in order to escape with you need to work together</li>
+            <li>disregard knife. wait for the prisoner to think of a plan.</li>
+            <li>attempt to loosen player rope pin.</li></ol>
+            <ul>
+                <li><button onclick="replace('div5','div7')">choice 1</button></li>
+                <li><button onclick="myFunction2()">choice 2 </button></li>
+                <li><button onclick="replace('div5','div6')">choice 3 </button></li></ul>
+            
+        </div>
+         <div id="div6" style="display:none">
+            <p>Fail</p>
+            <ol><li>tell prisoner about the knife and that in order to escape with you need to work together</li>
+            <li>disregard knife. wait for the prisoner to think of a plan.</li>
+            <li>attempt to loosen player rope pin.</li></ol>
+            <ul>
+                <li><button onclick="replace('div6','div7')">choice 1</button></li>
+                <li><button onclick="myFunction2()">choice 2 </button></li>
+                <li><button onclick="replace('div6','div6')">choice 3 </button></li></ul>
+            
+        </div>
+    </body>
+</html>
